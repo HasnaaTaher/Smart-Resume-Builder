@@ -1,0 +1,258 @@
+
+/* ========================== Home Page ========================== */
+
+.home_page{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fb;
+}
+
+.home_page header{
+    background-color:#071836;
+    padding:20px;
+    color:white;
+}
+
+.home_page main{
+    text-align:center;
+    padding:60px;
+}
+
+.home_page h1{
+    font-size:55px;
+    color:#1e293b;
+    margin-bottom:20px;
+}
+
+.home_page main h2{
+    color:#64748b;
+    font-weight:normal;
+}
+
+.home_page button{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:18px 40px;
+    border-radius:50px;
+    font-size:22px;
+    cursor:pointer;
+}
+
+.home_page .feat{
+    color:white;
+}
+
+.home_page .features{
+    text-align:center;
+    margin-top:60px;
+}
+
+.home_page .features div{
+    background:#071836;
+    padding:25px;
+    margin:20px auto;
+    width:300px;
+    border-radius:15px;
+}
+
+.home_page .card{
+    width:260px;
+    display:inline-block;
+    margin:15px;
+    padding:20px;
+    border-radius:10px;
+    border:1px solid #dddddd;
+    vertical-align:top;
+}
+
+.home_page p{
+    color:#64748b;
+}
+
+.home_page footer{
+    text-align:center;
+    padding:25px;
+    color:gray;
+}
+
+/* ========================== Resume Form ========================== */
+
+.form_page{
+    margin:0;
+    padding:0;
+    background:#5081e2;
+    font-family:Arial,sans-serif;
+}
+
+.form_page form{
+    width:70%;
+    margin:auto;
+}
+
+.form_page fieldset{
+    background:white;
+    border:none;
+    border-radius:15px;
+    margin-bottom:30px;
+    padding:30px;
+}
+
+.form_page legend{
+    font-size:24px;
+    font-weight:bold;
+    color:#071836;
+}
+
+.form_page label{
+    font-weight:bold;
+    color:#333;
+}
+
+.form_page input{
+    width:95%;
+    padding:12px;
+    margin-top:8px;
+    margin-bottom:20px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+}
+
+.form_page textarea{
+    width:95%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+    resize:vertical;
+}
+
+.form_page input[type="checkbox"]{
+    width:auto;
+}
+
+.form_page input[type="radio"]{
+    width:auto;
+}
+
+.form_page button{
+    background:#325aa0;
+    color:white;
+    border:none;
+    padding:15px 35px;
+    border-radius:8px;
+    font-size:18px;
+    display:block;
+    margin:20px auto;
+    cursor:pointer;
+}
+
+
+
+.form_page .generate{
+    background:#071836;
+}
+/* ========================== Resume Page ========================== */
+
+.resume_page{
+    margin:0;
+    padding:40px;
+    background-color:#eef2f7;
+    font-family:Arial, sans-serif;
+    color:#2c3e50;
+}
+
+.resume_page main{
+    width:70%;
+    max-width:900px;
+    margin:auto;
+    background:white;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
+}
+
+.resume_page header{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.resume_page header h1{
+    color:#2563eb;
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+.resume_page section{
+    margin-bottom:35px;
+}
+
+.resume_page section h2{
+    color:#2563eb;
+    border-bottom:2px solid #2563eb;
+    padding-bottom:8px;
+    margin-bottom:18px;
+}
+
+.resume_page section h3{
+    color:#1e293b;
+    margin-bottom:8px;
+}
+
+.resume_page p{
+    font-size:17px;
+    line-height:1.7;
+    margin:8px 0;
+}
+
+.resume_page strong{
+    color:#1e293b;
+}
+
+.resume_page hr{
+    border:none;
+    border-top:1px solid #dddddd;
+    margin:25px 0;
+}
+
+.resume_page button{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:14px 28px;
+    font-size:17px;
+    border-radius:8px;
+    cursor:pointer;
+    margin-top:20px;
+    margin-right:10px;
+}
+
+.resume_page footer{
+    text-align:center;
+    margin-top:40px;
+    color:gray;
+    font-size:15px;
+}
+
+button{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:14px 28px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#1d4ed8;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home Page</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+
+    </head>
+    <body class="home_page">
+        <header>
+
+            <h2>📄 Smart Resume Builder</h2>
+
+
+        </header>
+
+        <main>
+            
+            <h2 >Welcome to Smart Resume Builder</h2>
+            <h1>Build Your<br>
+                Professional Resume<br>
+                The Smart Way
+            </h1>
+            <h2>Fill in your details, choose a template and get your beautiful resume in seconds.
+            </h2>
+
+            <a href="/form">
+                <button type="button" onclick="welcome()">
+                    Get Started
+                </button>
+            </a>
+
+
+            <section class="features">
+                <div class="card">
+                    <h2 class="feat">Easy to use</h2>
+                    <p>Simple step by step process</p>
+                </div>
+
+                <div class="card">
+                    <h2 class="feat">Professional Templates</h2>
+                    <p>Multiple templates to choose from</p>
+                </div>
+
+                <div class="card">
+                    <h2 class="feat">Print Resume</h2>
+                    <p>Print your resume easily</p>
+                </div>
+            </section>
+
+        </main>
+        <footer>
+            <p>© 2026 Smart Resume Builder</p>
+        </footer>
+        <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    </body>
+</html>

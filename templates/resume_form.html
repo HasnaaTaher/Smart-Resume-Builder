@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Resume Form</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+
+    </head>
+    <body class="form_page">
+        <form action="/resume" method="POST">
+            <fieldset>
+                <legend>Personal Information</legend>
+                    <label>Full Name</label>
+                    <br>
+                    <input type="text" name="full_name" required   autofocus>
+                    <br>
+                    <label>Email</label>
+                    <br>
+                    <input type="email" name="email" required>
+                    <br>
+                    <label>Phone Number</label>
+                    <br>
+                    <input type=tel name="phone_number">
+                    <br>
+                    <label>Address</label>
+                    <br>
+                    <input type="text" name="address">
+                    <br>
+                    <label>Linkedin</label>
+                    <br>
+                    <input type="text" name="linkedin">
+                    <br>
+                    <label>GitHub</label>
+                    <br>
+                    <input type="text" name="github">
+                    <br>
+            </fieldset>
+            <!-- ================================================= -->
+            <fieldset>
+                <legend>Education</legend>
+                    <label>University</label>
+                    <br>
+                    <input type="text" name="university">
+                    <br>
+                    <label>Faculty</label>
+                    <br>
+                    <input type="text" name="faculty">
+                    <br>
+                    <label>Department</label>
+                    <br>
+                    <input type="text" name="department">
+                    <br>
+                    <label>Graduation Year</label>
+                    <br>
+                    <input type="number" name="graduation_year">
+                    <br>
+                    <label>GPA</label>
+                    <br>
+                    <input type="number" name="gpa" min="0" max="4" step="0.01">
+                    <br>
+            </fieldset>
+
+            <!-- ================================================= -->
+
+            <fieldset>
+                <legend>Skills</legend>
+                <h3>Programming Languages</h3>
+                <div>
+                    <input type="checkbox" name="programming_languages" value ="c++" >
+                    <label>C++</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="programming_languages" value ="Python" >
+                    <label>Python</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="programming_languages" value ="Java" >
+                    <label>Java</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="programming_languages" value ="JavaScript" >
+                    <label>JavaScript</label>
+                </div>
+                <!-- ====================================== -->
+                <h3>Web</h3>
+                <div>
+                    <input type="checkbox" name="web" value ="HTML" >
+                    <label>HTML</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="web" value ="CSS" >
+                    <label>CSS</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="web" value ="Flask" >
+                    <label>Flask</label>
+                </div>
+                <!-- ====================================== -->
+                <h3>Database</h3>
+                <div>
+                    <input type="checkbox" name="database" value ="SQL" >
+                    <label>SQL</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="database" value ="MySQL" >
+                    <label>MySQL</label>
+                </div>
+
+                <h3>Other Skills</h3>
+                <input type="text" name="other_skills">
+
+
+
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Languages</legend>
+                <div>
+                    <input type="checkbox" name="languages" value ="Arabic" >
+                    <label>Arabic</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="languages" value ="English" >
+                    <label>English</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="languages" value ="French" >
+                    <label>French</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Projects</legend>
+                
+                    <label>Project 1</label>
+                    <br>
+                    <input type="text" name="project_1" >
+                    <br>
+                    <label>Description 1</label>
+                    <br>
+                    <textarea name="project_1_description"></textarea>
+                    <br>
+                    <label>Project 2</label>
+                    <br>
+                    <input type="text" name="project_2" >
+                    <br>
+                    <label>Description 2</label>
+                    <br>
+                    <textarea name="project_2_description"></textarea>
+            </fieldset>
+
+            
+            <fieldset>
+                <legend>About Me</legend>
+                <textarea name="about_me" rows="6" cols="50"></textarea>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Choose Template</legend>
+                <div>
+                    <input type="radio" name="template" value ="Classic" >
+                    <label>Classic</label>
+                </div>
+                <div>
+                    <input type="radio" name="template" value ="Modern" checked>
+                    <label>Modern</label>
+                </div>
+                <div>
+                    <input type="radio" name="template" value ="Minimal" >
+                    <label>Minimal</label>
+                </div>
+
+
+            </fieldset>
+
+            <button type="reset" onclick="return confirmReset()">
+                Reset
+            </button>
+
+            <button class = "generate" type="submit" onclick="showMessage()">
+                ✨ Generate My Resume
+            </button>
+            <br>
+
+
+
+
+
+        </form>
+        <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    </body>
+</html>
