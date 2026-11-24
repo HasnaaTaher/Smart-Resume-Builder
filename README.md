@@ -1,7 +1,5 @@
 # Smart Resume Builder
 
-
-
 #### Description:
 
 **Smart Resume Builder** is a web-based application developed as my final project for CS50x. The purpose of this project is to simplify the process of creating a professional resume. Many students and beginners find it difficult to design a clean and organized resume, especially if they have little experience with formatting or design tools. This application provides a simple interface where users can enter their personal information, education, skills, work experience, and other details into an easy-to-use form. Once the form is submitted, the application automatically generates a well-structured resume that is ready to print.
