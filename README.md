@@ -1,6 +1,6 @@
 # Smart Resume Builder
 
-#### Video Demo: https://www.youtube.com/watch?v=UpoCshCAWDA
+
 
 #### Description:
 
